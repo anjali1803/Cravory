@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>Admin - Messages</title></head>
+<body>
+  <h2>Contact Messages</h2>
+  <div id="messages"></div>
+
+  <script>
+    fetch('http://localhost:3000/admin/messages')
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById('messages');
+        data.forEach(msg => {
+          container.innerHTML += `<p><strong>${msg.name}</strong> (${msg.email}): ${msg.message} <em>${msg.submitted_at}</em></p>`;
+        });
+      });
+  </script>
+</body>
+</html>

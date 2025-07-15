@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <h1 class="header-title">Crav<span>ory</span></h1>
+        <ul class="header-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menus">Menus</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="header-menu-toggle">
+            <i class='bx bx-menu'></i>
+            <i class='bx bx-x'></i>
+        </div>
+    </header>
+
+    <!-- SECTION: HOME -->
+    <section id="home" class="section-home section-menu">
+        <div class="section-home__content">
+            <h1 class="section-home__title">Welcome to <span>Cravory</span>, Where Flavor Lives!</h1>
+            <div class="section-home__buttons">
+                <button class="primary-button">Contact Us</button>
+                <a href="#menus" class="light-button">Explore</a>
+            </div>
+        </div>
+        <img class="section-home__image" src="images/pad-thai.png" alt="Pad Thai">
+    </section>
+
+    <!-- SECTION: MENUS -->
+    <section class="section-menus section-menu" id="menus">
+        <h1 class="section-title section-menus__title">Our <span>Menus</span></h1>
+        <p class="section-menus__desc section-desc">Discover our delicious selection of dishes, made with fresh
+            ingredients and full
+            offlavor. From hearty mains
+            to tasty snacks and refreshing drinks, there’s something for everyone to enjoy.
+        </p>
+        <div class="section-menus__cards">
+            <!-- CARD 1 -->
+            <div class="section-menus__card">
+                <img src="images/roasted-chicken.png" alt="Roasted Chicken">
+                <h3 class="section-menus__card-title">Roasted Chicken</h3>
+                <div class="section-menus__card-rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <span>4.3</span>
+                </div>
+                <div class="section-menus__card-footer">
+                    <h2 class="section-menus__card-price">$3.90</h2>
+                    <button class="primary-button"><i class='bx bxs-cart'></i></button>
+                </div>
+            </div>
+            <!-- CARD 2 -->
+            <div class="section-menus__card">
+                <img src="images/seafood-noodles.png" alt="Seafood Noodles">
+                <h3 class="section-menus__card-title">Seafood Noodles</h3>
+                <div class="section-menus__card-rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <span>5.0</span>
+                </div>
+                <div class="section-menus__card-footer">
+                    <h2 class="section-menus__card-price">$4.90</h2>
+                    <button class="primary-button"><i class='bx bxs-cart'></i></button>
+                </div>
+            </div>
+            <!-- CARD 3 -->
+            <div class="section-menus__card">
+                <img src="images/grilled-shrimp.png" alt="Grilled Shrimp">
+                <h3 class="section-menus__card-title">Grilled Shrimp</h3>
+                <div class="section-menus__card-rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <span>3.9</span>
+                </div>
+                <div class="section-menus__card-footer">
+                    <h2 class="section-menus__card-price">$7.49</h2>
+                    <button class="primary-button"><i class='bx bxs-cart'></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION: MENUS -->
+
+    <!-- SECTION: ABOUT -->
+    <section id="about" class="section-about section-menu">
+        <img class="section-about__image" src="images/pasta.png" alt="Pasta">
+        <div class="section-about__content">
+            <h1 class="section-title section-about__title">About <span>us</span></h1>
+            <p class="section-desc">At Cravory, we bring people together over delicious, thoughtfully crafted dishes
+                inspired by
+                traditional country flavors or modern fusion. Our passion for great food, warm hospitality, and
+                unforgettable dining experiences is at the heart of everything we do.
+            </p>
+            <div class="section-about__stats">
+                <div class="section-about__stat">
+                    <h1 class="section-about__stat-number">3+</h1>
+                    <div class="section-about__stat-text">
+                        <span class="section-about__stat-desc">Years of</span>
+                        <h3 class="section-about__stat-title">EXPERIENCE</h3>
+                    </div>
+                </div>
+                <div class="section-about__stat">
+                    <h2 class="section-about__stat-number">15</h2>
+                    <div class="section-about__stat-text">
+                        <span class="section-about__stat-desc">Best</span>
+                        <h3 class="section-about__stat-title">FOODS</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="primary-button">
+                Learn More
+                <i class='bx bx-right-arrow-alt'></i>
+            </button>
+        </div>
+
+        <img class="section-about__image-backkground-1" src="images/seafood-noodles.png" alt="Seafood Noodles">
+        <img class="section-about__image-backkground-2" src="images/roasted-chicken.png" alt="Seafood Noodles">
+    </section>
+    <!-- END SECTION: ABOUT -->
+
+    <!-- SECTION: SERVICES -->
+    <section class="section-services section-menu" id="services">
+        <h1 class="section-title">Our <span>Services</span></h1>
+        <p class="section-desc">We offer a variety of services to suit your dining needs—whether you're enjoying a meal
+            at our Cravory,
+            ordering to-go, or planning a special event. Quality, comfort, and great taste are at the heart of
+            everything we do.
+        </p>
+        <div class="section-services__cards">
+            <div class="section-services__card">
+                <div class="section-services__card-icon">
+                    <i class='bx bx-bowl-hot'></i>
+                </div>
+                <h1 class="section-services__card-title">Dine-In Service</h1>
+                <p>Enjoy a cozy dining experience at our Cravory with warm ambiance and excellent service.</p>
+            </div>
+            <div class="section-services__card">
+                <div class="section-services__card-icon">
+                    <i class='bx bx-package'></i>
+                </div>
+                <h1 class="section-services__card-title">Takeaway & Delivery</h1>
+                <p>Grab your meal to go or have it delivered to your doorstep—fast, easy, and delicious!</p>
+            </div>
+            <div class="section-services__card">
+                <div class="section-services__card-icon">
+                    <i class='bx bx-calendar-event'></i>
+                </div>
+                <h1 class="section-services__card-title">Event & Catering</h1>
+                <p>Celebrate special moments with our event hosting and catering services for all occasions.</p>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION: END SERVICES -->
+
+    <!-- SECTION: CONTACT -->
+    <section class="section-contact section-menu" id="contact">
+        <div class="section-contact__info">
+            <h1 class="section-title section-contact__title">Contact <span>Us</span></h1>
+            <p class="section-desc">Got questions or want to make a reservation? We’d love to hear from you! Reach out
+                to us anytime—we’re
+                here to help.</p>
+            <div class="section-contact__info-items">
+                <div class="section-contact__info-item">
+                    <div class="section-contact__info-item-icon">
+                        <i class='bx bxs-location-plus'></i>
+                    </div>
+                    <a class="section-contact__info-item-link" href="https://maps.google.com">Cravory Street,
+                        Kranti Street, Bengaluru 
+                        560049, India</a>
+                </div>
+                <div class="section-contact__info-item">
+                    <div class="section-contact__info-item-icon">
+                        <i class='bx bxl-instagram'></i>
+                    </div>
+                    <a class="section-contact__info-item-link" href="https://instagram.com">@Crave_savory</a>
+                </div>
+                <div class="section-contact__info-item">
+                    <div class="section-contact__info-item-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </div>
+                    <a class="section-contact__info-item-link" href="https://facebook.com">CraveSavory</a>
+                </div>
+            </div>
+        </div>
+       <form class="section-contact__form" id="contactForm">
+    <input class="text-field" type="text" name="name" placeholder="Your name" required>
+    <input class="text-field" type="email" name="email" placeholder="Email" required>
+    <input class="text-field" type="tel" name="phone" placeholder="Phone number" required>
+    <textarea class="text-field text-field--textarea" name="message" placeholder="Message" rows="5" required></textarea>
+    <button type="submit" class="section-contact__form-button secondary-button">Send Message</button>
+    <p id="formStatus" style="margin-top: 10px;"></p>
+</form>
+
+    </section>
+    <!-- SECTION: END CONTACT -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h1 class="footer__title">Crav<span>ory</span></h1>
+        <ul class="footer__menus">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menus">Menus</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="footer__divider"></div>
+        <p class="footer__copyright">&copy; 2025 Cravory. All rights reserved. | Crafted by Anjali Sharma</p>
+    </footer>
+    <!-- END FOOTER -->
+
+
+<!-- other content here -->
+
+<!-- <script>
+document.getElementById("contactForm").addEventListener("submit", async function(e) {
+    e.preventDefault(); // Prevent default form submission
+
+    const form = e.target;
+    const formData = {
+        name: form.name.value,
+        email: form.email.value,
+        phone: form.phone.value,
+        message: form.message.value
+    };
+
+    try {
+        const response = await fetch("http://localhost:3000/contact", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(formData)
+        });
+
+        const result = await response.json();
+        const status = document.getElementById("formStatus");
+
+        if (result.success) {
+            status.style.color = "green";
+            status.textContent = "Message sent successfully!";
+            form.reset(); // Clear the form
+        } else {
+            status.style.color = "red";
+            status.textContent = "Failed to send message.";
+        }
+
+    } catch (error) {
+        console.error("Form Error:", error);
+        document.getElementById("formStatus").textContent = "Error connecting to server.";
+    }
+});
+</script> -->
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", async function(e) {
+    e.preventDefault();
+
+    const form = e.target;
+    const formData = {
+        name: form.name.value,
+        email: form.email.value,
+        phone: form.phone.value,
+        message: form.message.value
+    };
+
+    try {
+        const response = await fetch("http://localhost:3000/contact", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(formData)
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            alert("Message sent successfully!");
+            form.reset();
+        } else {
+            alert("Failed to send message.");
+        }
+
+    } catch (error) {
+        console.error("Form Error:", error);
+        alert("Error connecting to server.");
+    }
+});
+</script>
+
+
+
+</body>
+</html>
+
+
+
